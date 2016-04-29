@@ -165,6 +165,16 @@
 				<button class="close" onclick="hideLinkNote('l2');"><i class="fa fa-times"></i></button>
 			</div>
 		</div>
+		<div id='l12' class='link l12 link-h right'>
+			<div class="link-note">
+				<h2 id='l12title'></h2>
+				<div id='l12url' class="node-url">url</div>
+				<h3 id='l12subtitle'></h3>
+				<button class="edit" onclick="showLinkNote('l12');"><i class="fa fa-pencil"></i></button>
+				<textarea placeholder="Skriv ditt notat her..." id='l12n'></textarea>
+				<button class="close" onclick="hideLinkNote('l12');"><i class="fa fa-times"></i></button>
+			</div>
+		</div>
 
 	</div>
 
@@ -451,6 +461,7 @@
 	var n11 = NDLAHistoryMindMap.createNode("Terror og kaos", "Foto: Frakting av døde etter terroren/Etienne Bericourt, Akg-images, NTB Scanpix","","n11");
 	var l1 = NDLAHistoryMindMap.createLink(n1,n7, false, "", "", "l1");
 	var l2 = NDLAHistoryMindMap.createLink(n2,n6, false, "", "", "l2");
+	var l12 = NDLAHistoryMindMap.createLink(n2,n7, false, "", "", "l12");
 	var l3 = NDLAHistoryMindMap.createLink(n3,n6, false, "", "", "l3");
 	var l4 = NDLAHistoryMindMap.createLink(n4,n6, false, "", "", "l4");
 	var l5 = NDLAHistoryMindMap.createLink(n5,n7, false, "", "", "l5");
